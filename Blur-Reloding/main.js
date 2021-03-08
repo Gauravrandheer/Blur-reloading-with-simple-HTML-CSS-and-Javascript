@@ -17,6 +17,9 @@ function loading(){
   console.log(load);
 }
 
+
+// this function help to map a range of number to another range of number
+
 const scale = (num, in_min, in_max, out_min, out_max) => {
   return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
 }
